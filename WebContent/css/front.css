@@ -1,0 +1,159 @@
+body{font-size: 0.75em;font-family: "맑은 고딕", "Malgun Gothic", "돋움", Dotum, AppleGothic, sans-serif;line-height:1.2em;	color:#333;background-color: #e8e8e8;}
+	#wrap{margin: 0 auto;width: 944px;background-color: #fff;}
+	a { text-decoration:none;color:#333;}
+	a:hover { color:#39F; text-decoration:none}
+	.clear { clear:both }
+	header{height: 137px;}
+	#logo{float: left;background-position:center center; margin:10px 0 0 25px;}
+	#logo a {display:block;width:200px;height:120px;}	
+	#hlink, nav {float:right;}	
+	#hlink ul {list-style:none;}	
+	#hlink li, nav li {float:left;}
+	#hlink { margin:11px 28px 0 0;}	
+	#hlink li a { padding:0 10px}
+	nav {margin:42px 38px 0 0;font-size:1.4em;clear:right;width:530px;height:25px;}
+	nav li {background:/*url(../imgs/div_line.png)*/ no-repeat center right}
+	nav li.n1 a, nav li.n2 a, nav li.n3 a, nav li.n4 a, nav li.n1 a:hover, nav li.n2 a:hover, nav li.n3 a:hover, nav li.n4 a:hover { 
+		/*background-image:url(../imgs/main_menu.jpg);*/ 
+		background-repeat:no-repeat;		
+	}
+	nav li.n1 a, nav li.n2 a, nav li.n3 a, nav li.n4 a{transition:all 0.2s ease-in-out;}
+	nav li.n1 a {background-position:27px top;}
+	nav li.n2 a {background-position:-96px top;}
+	nav li.n3 a {background-position:-217px top;}
+	nav li.n4 a {background-position:-338px top;}
+	nav li.n1 a:hover {background-position: 27px -23px;}
+	nav li.n2 a:hover {background-position: -96px -23px;}
+	nav li.n3 a:hover {background-position: -217px -23px;}
+	nav li.n4 a:hover {background-position: -338px -23px;}	
+	nav li a { padding:0; display:block; width:118px; height:20px;}	
+	nav li:last-child { background:none}
+	#hmenu {
+			margin: 42px 38px 0 0;
+		    font-size: 1.4em;
+		    width: 400px;
+		    height: 25px;	
+	        text-align: center;
+	}
+	#justar {
+		margin:0 0 0 30px;
+		float:left;
+		width:200px;
+	}
+	#justar h3 {
+		text-transform:capitalize;
+		background:url(../imgs/h3_under.jpg) no-repeat left bottom;
+		padding:0 0 5px 5px;
+		font-family: 'Droid Sans', sans-serif;
+		font-weight:normal;
+		font-size:1.1em;
+	}
+	#justar figure#slide{
+		text-align:center;
+		padding-top:10px;
+	}
+
+	#notinews {width: 350px; float:left; margin-left:80px;}
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 24px;
+		border-bottom: 1px solid #999;
+		border-left: 1px solid #999;
+		width: 100%;
+		font-family: 'Droid Sans', sans-serif;			
+	}
+	ul.tabs li {
+		float: left;
+		margin: 0;
+		padding: 0;
+		height:23px;
+		line-height: 23px;
+		border: 1px solid #999; 
+		border-left: none;
+		margin-bottom: -1px;
+		background: #F6F6F6;
+		overflow: hidden;
+		position: relative;
+	}
+	ul.tabs li a {
+		text-decoration: none;
+		color: #000;
+		display: block;
+		padding: 0 20px;
+		border: 1px solid #fff;
+		outline: none;
+	}
+	ul.tabs li a:hover {
+		background: #ccc;
+	}	
+	html ul.tabs li.active, html ul.tabs li.active a:hover  {
+		background: #fff;
+		border-bottom: 1px solid #fff;
+	}
+	.tab_container {
+		border-top: none;
+		clear: both;
+		float: left; 
+		width: 300px;
+		background: #fff;
+
+	}
+	.tab_content {
+		padding: 20px 10px;
+		font-size: 1.1em;
+	}
+	.tab_container ul {
+		list-style:none;
+	}
+	.tab_container ul li {
+		line-height:1.7em;
+		background:url(../imgs/bullet.gif) no-repeat left 10px;
+		padding-left:10px;
+	}
+	
+
+	#social {
+		float:right;
+		margin:0 30px 0 0;
+		width: 180px;
+	}
+	#social h3 {
+		padding:0 0 15px 0;
+		font-family: 'Droid Sans', sans-serif;
+		font-weight:normal;
+		font-size:1.1em;
+		text-transform:capitalize;
+	}
+	#social ul {list-style:none;}
+	#social ul li {	float:left;	margin:5px;}
+	#social ul li img {width:33px; height: 32px; }
+	#social ul li a {opacity:0.7;transition:all 0.3s ease-in-out;}
+	#social ul li a:hover { opacity:1}
+	#social:hover ul li {
+		-webkit-filter: blur(3px);
+		-ms-filter: blur(3px);
+	}
+	#social ul li:hover {
+		-webkit-filter:none;
+		-ms-filter:none;
+	}
+	footer {
+		padding:20px 0;
+		margin:10px 20px;
+		border-top:1px solid #CCC;
+		
+	}
+	footer address {
+		width:510px;
+		height:50px;
+		margin:10px auto;
+		padding:0 0 0 90px;
+		text-align:center;
+		font-style:normal;
+		line-height:1.8em;
+		background:url(../imgs/foot_logo.png) no-repeat left center;
+	}
+	
