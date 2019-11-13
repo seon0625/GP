@@ -68,7 +68,7 @@ if( hasNotAuth(id, boardVO)){
    <jsp:include page="../include/header.jsp"></jsp:include>
    <div id="wrap">
    	<article>
-   	<h1>삭--제</h1>
+   	<h1>삭d--d제</h1>
    	
    	<% if(id == null){ %>
    			<form action="deleteProcess.jsp" method="post" name="frm" onsubmit="return check();">
